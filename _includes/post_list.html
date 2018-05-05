@@ -1,11 +1,6 @@
 {% include mode_switcher.html %}
 
-{% for post in paginator.posts %}
-    {% include post_list_item.html %}
-{% endfor %}
-
-
-<!-- {% if paginator %}
+{% if paginator %}
     {% for post in paginator.posts %}
         {% include post_list_item.html %}
     {% endfor %}
@@ -16,9 +11,9 @@
             {% assign displayPagi = true %}
         {% endif %}
     {% endfor %}
-{% endif %} -->
+{% endif %}
 
-<!-- {% if displayPagi or paginator %}
+{% if displayPagi or paginator %}
 <div class="row" id="paginator">
     {% if paginator.total_pages > 1 %}
         {% if paginator.previous_page %}
@@ -45,5 +40,5 @@
     {% endif %}
 
 </div>
-{% endif %} -->
+{% endif %} 
 {% assign displayPagi = false %}
