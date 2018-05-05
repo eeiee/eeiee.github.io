@@ -2,7 +2,7 @@
 title: "shadowsocks 快速搭建手册，只需四步"
 layout: post
 category: net
-tags: [shadowsocks]
+tags: [ss]
 excerpt: "shadowsocks 快速搭建手册，只需四步"
 ---
 科学上网其实很简单，包教包会！一共只需要四步，世界互联尽在掌握~
@@ -34,7 +34,8 @@ CentOS:
 yum install python-setuptools && easy_install pip
 pip install shadowsocks
 ```
-Windows:
+
+#### Windows:
 安装[Python for Windows](https://www.python.org/downloads/windows/),安装过程中勾选
 pip选项，
 
