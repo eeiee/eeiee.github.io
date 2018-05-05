@@ -18,7 +18,7 @@ excerpt_separator: "[-----]"
 
 # mode: product
 mode: product
-url: http://localhost:4000/
+url: https://eeiee.github.io/
 devurl: http://localhost:4000/
 name: eeiee
 title: eeiee
