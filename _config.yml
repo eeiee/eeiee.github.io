@@ -24,18 +24,9 @@ name: eeiee
 title: eeiee
 description: ""
 
-collections:
-    qqGroupGuide:
-        output: true
-
 defaults:
   - scope:
         path: ""
         type: "posts"
     values:
         excerpt: "{{ page.content }} | slice: 0 300"
-  - scope:
-        path: ""
-        type: ""
-    values:
-        layout: markdownreader_bare

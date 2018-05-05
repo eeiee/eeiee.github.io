@@ -8,7 +8,7 @@ td.linenos {
 div.highlight, div.highlighter-rouge {
     width: 97%;
     margin-left: 1px;
-    background: #49483e url('../images/monokaibg.jpg') top left;
+    background: #49483e top left;
     color: white;
     padding: 5px 5px 5px 15px;
     border-radius: 5px;
@@ -16,7 +16,7 @@ div.highlight, div.highlighter-rouge {
 
 td.code {
     width: 100%;
-    background: #49483e url('../images/monokaibg.jpg') top left;
+    background: #49483e top left;
     color: white;
     border-radius: 5px;
 }
