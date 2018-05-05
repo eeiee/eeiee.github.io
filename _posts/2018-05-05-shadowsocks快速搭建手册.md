@@ -63,7 +63,7 @@ ss启动时可通过命令参数或配置文件，本文采用配置文件的方
 }
 ```
 
-其中主要配置```server```,```server_port```,```password```字段，其中server为上步购买的服务器ip地址，````server_port```可选择一个大于1024的端口，```password```填入连接密码，后面需要用到。
+其中主要配置```server```,```server_port```,```password```字段，其中server为上步购买的服务器ip地址，```server_port```可选择一个大于1024的端口，```password```填入连接密码，后面需要用到。
 ### 启动ss
 ```
 nohup ssserver -c /etc/shadowsocks.json &
